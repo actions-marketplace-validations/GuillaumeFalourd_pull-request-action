@@ -59,11 +59,12 @@ _Inspired from [https://github.com/repo-sync/pull-request](https://github.com/re
 
 ## Output
 
-| Variable name | Description |
-| `pr_url` | Pull request URL |
-| `pr_number` | Pull request number |
-| `has_changed_files` | Boolean string indicating whether any file has been changed'
-| `pr_created` | Boolean string indicating whether a PR was created |
+Field | Observation
+------------ | ------------ 
+`pr_url` | Pull request URL
+`pr_number` | Pull request number
+`has_changed_files` | Boolean string indicating whether any file has been changed
+`pr_created` | Boolean string indicating whether a PR was created
 
 ## 🤝 Contributing
 
