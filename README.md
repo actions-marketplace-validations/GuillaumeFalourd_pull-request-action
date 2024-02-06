@@ -57,6 +57,14 @@ _Inspired from [https://github.com/repo-sync/pull-request](https://github.com/re
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}         # Can use PAT as secret
 ```
 
+## Output
+
+| Variable name | Description |
+| `pr_url` | Pull request URL |
+| `pr_number` | Pull request number |
+| `has_changed_files` | Boolean string indicating whether any file has been changed'
+| `pr_created` | Boolean string indicating whether a PR was created |
+
 ## 🤝 Contributing
 
 ☞ If you're interested in contributing to this repository, please follow the [guidelines](https://github.com/GuillaumeFalourd/pull-request-action/blob/main/CONTRIBUTING.md)
