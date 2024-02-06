@@ -57,7 +57,7 @@ _Inspired from [https://github.com/repo-sync/pull-request](https://github.com/re
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}         # Can use PAT as secret
 ```
 
-## Output
+## 🧩 Outputs
 
 Field | Observation
 ------------ | ------------ 
