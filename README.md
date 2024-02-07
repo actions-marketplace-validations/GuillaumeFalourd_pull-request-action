@@ -31,9 +31,9 @@ _Inspired from [https://github.com/repo-sync/pull-request](https://github.com/re
 ### Minimum configurations
 
 ```yaml
-    - uses: GuillaumeFalourd/pull-request-action@v1
+    - uses: GuillaumeFalourd/pull-request-action@v2
       with:
-        destination_branch: "main"
+        destination_branch: "my-branch"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -41,7 +41,7 @@ _Inspired from [https://github.com/repo-sync/pull-request](https://github.com/re
 ### Full configurations
 
 ```yaml
-    - uses: GuillaumeFalourd/pull-request-action@v1
+    - uses: GuillaumeFalourd/pull-request-action@v2
       with:
         source_branch: "main"                             # If blank, default: triggered branch
         destination_branch: "feature"                     # If blank, default: main
